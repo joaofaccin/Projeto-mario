@@ -34,6 +34,188 @@
     .container .botao-trailer{
         background-color: #263238;;
     }
+
+/*---------------- MARIO ---------------------- */
+
+
+    .personagens-mario{
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        gap: 30px
+    }
+
+    .personagens-mario .mario-c{
+        max-width: 50%;
+    }
+   
+
+    .personagens-mario .informacoes{
+        display: flex;
+        align-items: center;
+        flex-direction: column;       
+    }
+
+    .personagens-mario .descricao{
+        color: #ffffff;
+        text-align: center;
+    }
+    .personagens-mario .imagem-titulo{      
+        max-width: 75%;
+    }
+
+/*---------------- luigi ---------------------- */
+
+
+    .personagens-luigi{
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        gap: 30px
+    }
+
+    .personagens-luigi .luigi{
+        max-width: 40% !important;;
+    }
+   
+
+    .personagens-luigi .informacoes{
+        display: flex;
+        align-items: center;
+        flex-direction: column;       
+    }
+
+    .personagens-luigi .descricao{
+        color: #ffffff;
+        text-align: center;
+    }
+    .personagens-luigi .imagem-titulo{
+        max-width: 75%;
+    }
+
+/*---------------- Peach ---------------------- */
+
+
+        .personagens-peach{
+            flex-wrap: wrap;
+            justify-content: center;
+            height: auto;
+            gap: 30px
+        }
+    
+        .personagens-peach .peach{
+            max-width: 35%;
+        }
+       
+    
+        .personagens-peach .informacoes{
+            display: flex;
+            align-items: center;
+            flex-direction: column;       
+        }
+    
+        .personagens-peach .descricao{
+            color: #ffffff;
+            text-align: center;
+        }
+        .personagens-peach .imagem-titulo{
+            max-width: 75%;
+        }
+    
+    /*---------------- Yoshi ---------------------- */
+
+
+        .personagens-yoshi{
+            flex-wrap: wrap;
+            justify-content: center;
+            height: auto;
+            gap: 30px
+        }
+    
+        .personagens-yoshi .yoshi{
+            max-width: 50% !important;
+        }
+       
+    
+        .personagens-yoshi .informacoes{
+            display: flex;
+            align-items: center;
+            flex-direction: column;       
+        }
+    
+        .personagens-yoshi .descricao{
+            color: #ffffff;
+            text-align: center;
+        }
+
+        .personagens-yoshi 
+        .imagem-titulo{
+            max-width: 75%;
+        }
+
+/*---------------- Toad ---------------------- */
+
+
+         .personagens-toad{
+            flex-wrap: wrap;
+            justify-content: center;
+            height: auto;
+            gap: 30px
+        }
+    
+        .personagens-toad .toad{
+            max-width: 35%;
+        }
+       
+    
+        .personagens-toad .informacoes{
+            display: flex;
+            align-items: center;
+            flex-direction: column;       
+        }
+    
+        .personagens-toad .descricao{
+            color: #ffffff;
+            text-align: center;
+        }
+
+        .personagens-toad 
+        .imagem-titulo{
+            max-width: 70% !important;
+        }
+
+ /*---------------- Bowzer ---------------------- */
+
+
+                .personagens-bowzer{
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    height: auto;
+                    gap: 30px
+                }
+            
+                .personagens-bowzer .bowzer{
+                    max-width: 74% !important;
+                }
+               
+            
+                .personagens-bowzer .informacoes{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;       
+                }
+            
+                .personagens-bowzer .descricao{
+                    color: #ffffff;
+                    text-align: center;
+                }
+        
+                .personagens-bowzer 
+                .imagem-titulo{
+                    max-width: 70% !important;
+                }
+
+    
 }
 
 @media (max-width: 500px){

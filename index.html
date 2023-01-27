@@ -6,6 +6,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         <link rel="shortcut icon" href="./src/imagens/favicon.ico" type="image/x-icon">
+		
+
 
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -14,6 +16,7 @@
 		<link rel="stylesheet" href="./src/css/reset.css">
 		<link rel="stylesheet" href="./src/css/estilos.css">
 		<link rel="stylesheet" href="./src/css/responsivo.css">
+		<link rel="stylesheet" href="./src/css/personagens.css">
 		
 		<title>Super Mario Bros - O Filme</title>
 	</head>
@@ -26,23 +29,28 @@
 
 		<header class="cabecalho">
 			<a>
-				<img class="logo" src="./src/imagens/logo-chapeu-mario.png" alt="logo chapéu Mario" />
+				<img class="logo" id="rotate" src="./src/imagens/logo-chapeu-mario.png" alt="logo chapéu Mario" />
+			
 			</a>
 			<nav>
 				<ul class="menu">
-					<li><a href="./index.html">Home</a></li>
-					<li><a href="./detalhes.html">Detalhes</a></li>
+					<li><a href="">Mario</a></li>
+					<li><a href="">Luigi</a></li>
+					<li><a href="">Peach</a></li>
+					<li><a href="">Yoshi</a></li>
+					<li><a href="">Toad</a></li>
+					<li><a href="">Bowzer</a></li>
 				</ul>
 			</nav>
 		</header>
-		<main class="container">
+		<main >
+			<section class="container">		
 			<div class="informacoes">
 				<img class="imagem-titulo" src="./src/imagens/titulo.png" alt="imagem do título do filme" />
 				<p class="descricao">Mario é um encanador junto com seu irmão Luigi. Um dia, eles vão parar no reino dos cogumelos, governado pela Princesa Peach, mas ameaçado pelo rei dos Koopas, que faz de tudo para conseguir reinar em todos os lugares.</p>
 				<button class="botao-trailer">Veja o trailer</button>
 			</div>
-			<img class="mario" src="./src/imagens/super-mario-chars.png" />
-
+			<img class="mario" src="./src/imagens/super-mario-chars.png" />			
 			<div class="modal">
 				<div class="conteudo-modal">
 				<span class="fechar-modal">X</span>
@@ -50,8 +58,65 @@
 				title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 				</div>
 			</div>
+		</section>
+		<section class="personagens-mario">
+			<div class="informacoes">
+				<img class="imagem-titulo" src="./src/imagens/logo-mario.png" alt="" />
+				<p class="descricao">Mario é um personagem fictício da franquia e série de jogos eletrônicos Mario da Nintendo, criado pelo desenvolvedor e designer de jogos eletrônicos japonês Shigeru Miyamoto. Servindo como mascote da Nintendo e protagonista homônimo da série, Mario já apareceu em mais de 200 jogos desde sua criação.</p>			
+			</div>
+			<img class="mario-c" src="./src/imagens/mario-c.png" />			
+			
+		</section>
+
+		<section class="personagens-luigi">
+			<div class="informacoes">
+				<img class="imagem-titulo" src="./src/imagens/logo-luigi.png" alt="" />
+				<p class="descricao">Luigi é um personagem fictício de videogames produzido pela Nintendo. Criado pelo designer de jogos Shigeru Miyamoto, Luigi é irmão do Mario e é um dos mascotes da série, ele é o seu companheiro em vários jogos.</p>			
+			</div>
+			<img class="luigi" src="./src/imagens/luigi.png" />			
+			
+		</section>	
+
+		<section>
+			<section class="personagens-peach">
+				<div class="informacoes">
+					<img class="imagem-titulo" src="./src/imagens/logo-peach.png" alt="" />
+					<p class="descricao">Ela é a princesa do também fictício Reino dos Cogumelos e por diversas vezes faz o papel de donzela em apuros da série, sendo constantemente salva por Mario, a quem ela é apaixonada.</p>			
+				</div>
+				<img class="peach" src="./src/imagens/princess-peach.png" />			
+				
+			</section>
+
+			<section class="personagens-yoshi">
+				<div class="informacoes">
+					<img class="imagem-titulo" src="./src/imagens/logo-yoshi.png" alt="" />
+					<p class="descricao">Yoshi é um personagem fictício, um dinossauro antropomórfico, que aparece na série de videogames Mario.</p>			
+				</div>
+				<img class="yoshi" src="./src/imagens/yoshi.png" />							
+			</section>
+
+			<section class="personagens-toad">
+				<div class="informacoes">
+					<img class="imagem-titulo" src="./src/imagens/logo-toad.png" alt="" />
+					<p class="descricao">Yoshi é um personagem fictício, um dinossauro antropomórfico, que aparece na série de videogames Mario.</p>			
+				</div>
+				<img class="toad" src="./src/imagens/told.png" />			
+				
+			</section>
+
+			<section class="personagens-bowzer">
+				<div class="informacoes">
+					<img class="imagem-titulo" src="./src/imagens/logo-bowser.png" alt="" />
+					<p class="descricao">O Rei Bowser Koopa, conhecido no Japão como Koopa, ou somente Bowser, é o principal vilão do universo Mario, consagrada franquia da Nintendo, e também um dos mais famosos vilões da empresa.</p>			
+				</div>
+				<img class="bowzer" src="./src/imagens/Bowser.png" />			
+				
+			</section>
+		</section>
 		</main>
-		<script src="./src/js/index.js"></script>
+		
 	</body>
 </html>
 
+<script src="./src/js/index.js"></script>
+<script src="./src/js/giraricone.js"></script>

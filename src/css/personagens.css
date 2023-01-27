@@ -1,0 +1,175 @@
+
+/*----------------------------coisas genericas----------------------------------------*/
+
+.mario-c,
+.luigi,
+.peach,
+.yoshi,
+.toad,
+.bowzer{
+    max-width: 30%;
+}
+
+
+
+
+
+
+
+/*----------------------------Mario----------------------------------------*/
+
+.personagens-mario{
+    width: 100vw;
+    height: 100vh;
+    margin:  0 auto;
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 132px);
+    padding: 0 30px 30px;
+   
+    background: rgb(0,0,0);
+    background: linear-gradient(29deg, rgba(0,0,0,1) 0%, rgba(231,10,10,0.835171568627451) 39%, rgba(0,0,0,1) 100%);
+}
+
+
+.personagens-mario .imagem-titulo{
+        max-width: 300px;  
+}
+
+.personagens-mario .descricao{
+    color:#ffffff;
+    width: 85%;
+    font-size: 18px;
+    margin: 30px 0;    
+}
+
+/*-------------------------------- Luigi ------------------------------------*/
+
+.personagens-luigi{
+    width: 100vw;
+    height: 100vh;
+    margin:  0 auto;
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 132px);
+    padding: 0 30px 30px;
+    background: rgb(0,0,0);
+    background: linear-gradient(29deg, rgba(0,0,0,1) 0%, rgba(16, 190, 25, 0.835) 39%, rgba(0,0,0,1) 100%);
+}
+
+
+.personagens-luigi .imagem-titulo{
+        max-width: 300px;  
+}
+
+.personagens-luigi .descricao{
+    color:#ffffff;
+    width: 85%;
+    font-size: 18px;
+    margin: 30px 0;    
+}
+
+/*------------------------------Peach--------------------------------------*/
+
+.personagens-peach{
+    width: 100vw;
+    height: 100vh;
+    margin:  0 auto;
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 132px);
+    padding: 0 30px 30px;
+    background: rgb(0,0,0);
+    background: linear-gradient(29deg, rgba(0,0,0,1) 0%, rgba(219, 16, 192, 0.835) 39%, rgba(0,0,0,1) 100%);
+}
+
+
+.personagens-peach .imagem-titulo{
+        max-width: 300px;  
+}
+
+.personagens-peach .descricao{
+    color:#ffffff;
+    width: 85%;
+    font-size: 18px;
+    margin: 30px 0;    
+}
+/*------------------------------Yoshi--------------------------------------*/
+
+.personagens-yoshi{
+    width: 100vw;
+    height: 100vh;
+    margin:  0 auto;
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 132px);
+    padding: 0 30px 30px;
+    background: rgb(0,0,0);
+    background: linear-gradient(29deg, rgba(0,0,0,1) 0%, rgba(16, 150, 27, 0.835) 39%, rgba(0,0,0,1) 100%);
+}
+
+
+.personagens-yoshi .imagem-titulo{
+        max-width: 300px;  
+}
+
+.personagens-yoshi .descricao{
+    color:#ffffff;
+    width: 85%;
+    font-size: 18px;
+    margin: 30px 0;    
+}
+
+
+/*------------------------------Toad--------------------------------------*/
+
+.personagens-toad{
+    width: 100vw;
+    height: 100vh;
+    margin:  0 auto;
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 132px);
+    padding: 0 30px 30px;
+    background: rgb(0,0,0);
+    background: linear-gradient(29deg, rgba(0,0,0,1) 0%, rgba(231, 133, 4, 0.835) 39%, rgba(0,0,0,1) 100%);
+}
+
+
+.personagens-toad .imagem-titulo{
+        max-width: 300px;  
+}
+
+.personagens-toad .descricao{
+    color:#ffffff;
+    width: 85%;
+    font-size: 18px;
+    margin: 30px 0;    
+}
+
+/*-------------------------- Bowser------------------------------------------*/
+
+
+.personagens-bowzer{
+    width: 100vw;
+    height: 100vh;
+    margin:  0 auto;
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 132px);
+    padding: 0 30px 30px;
+    background: rgb(0,0,0);
+    background: linear-gradient(29deg, rgba(0,0,0,1) 0%, rgba(167, 68, 1, 0.835) 39%, rgba(0,0,0,1) 100%);
+}
+
+
+.personagens-bowzer .imagem-titulo{
+        max-width: 300px;  
+}
+
+.personagens-bowzer .descricao{
+    color:#ffffff;
+    width: 85%;
+    font-size: 18px;
+    margin: 30px 0;    
+}
